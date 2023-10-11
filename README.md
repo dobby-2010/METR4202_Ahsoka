@@ -3,29 +3,25 @@
 ## Setup
 System: ROS2 Humble Hawsbill
 
-Required ROS2 Packages
+Required ROS2 Packages (Gazebo, Cartographer, Navigation2, TurtleBot3 Packages)
 
-Gazebo
 ``` 
 sudo apt install ros-humble-gazebo-*
-``` 
-
-Cartographer
-``` 
 sudo apt install ros-humble-cartographer
 sudo apt install ros-humble-cartographer-ros
-``` 
-
-Navigation2
-``` 
 sudo apt install ros-humble-navigation2
 sudo apt install ros-humble-nav2-bringup
-``` 
-
-TurtleBot3 Packages
-``` 
 sudo apt install ros-humble-dynamixel-sdk
 sudo apt install ros-humble-turtlebot3-msgs
 sudo apt install ros-humble-turtlebot3
 ``` 
 
+
+## Simulation package
+```
+~/turtlebot3_ws/src/
+git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+cd ~/turtlebot3_ws && colcon build --symlink-install
+```
+
+n
