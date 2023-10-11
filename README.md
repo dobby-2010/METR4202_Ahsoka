@@ -24,4 +24,5 @@ git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.
 cd ~/turtlebot3_ws && colcon build --symlink-install
 ```
 
-n
+Ensure to completely terminate other simulation world before launching a new world
+
