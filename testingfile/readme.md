@@ -1,13 +1,17 @@
 # Waffle pi Test
 
-## In one terminal
+## GAZEBO LAUNCH
 ```  
 export TURTLEBOT3_MODEL=waffle_pi
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```  
-## A1 rIZ
+##  RIZ
 ```  
 ros2 launch turtlebot3_bringup rviz2.launch.py
+```
+## SLAM
+```  
+ros2 launch slam_toolbox online_async_launch.py
 ```  
 ## To Control
 ```  
