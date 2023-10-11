@@ -17,4 +17,4 @@ ros2 run turtlebot3_teleop teleop_keyboard
 ```  
 ros2 run turtlebot3_gazebo turtlebot3_drive
 ```  
-![Uploading Screenshot 2023-10-11 175411.png…]()
+![Screenshot 2023-10-11 175411](https://github.com/dobby-2010/METR4202_Ahsoka/assets/113088533/90584c4d-c68e-4f53-96f0-3dd5545984c5)
