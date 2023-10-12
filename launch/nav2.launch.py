@@ -34,7 +34,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
   pkg_nav2_dir = get_package_share_directory('nav2_bringup')
-  pkg_tb3_sim = get_package_share_directory('metr4202_ahsoka')
+  pkg_tb3_sim = get_package_share_directory('explorer_gazebo') 
 
   use_sim_time = LaunchConfiguration('use_sim_time', default='True')
   autostart = LaunchConfiguration('autostart', default='True')
@@ -46,7 +46,7 @@ def generate_launch_description():
       launch_arguments={
           'use_sim_time': use_sim_time,
           'autostart': autostart,
-          'map': os.path.join(pkg_tb3_sim, 'maps', 'map.yaml')
+          'map': os.path.join(pkg_tb3_sim, 'worlds', 'map1.world.xml')
       }.items()
   )
 
