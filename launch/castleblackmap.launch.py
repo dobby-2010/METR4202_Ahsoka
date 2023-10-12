@@ -86,7 +86,7 @@ def generate_launch_description():
             launch_arguments={'use_sim_time': use_sim_time}.items())
 
     nav2_launch_cmd =   IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([nav2_launch_file_dir, '/nav.launch.py']),
+            PythonLaunchDescriptionSource([nav2_launch_file_dir, '/nav2.launch.py']),
             launch_arguments={'use_sim_time': use_sim_time}.items())
 
       
