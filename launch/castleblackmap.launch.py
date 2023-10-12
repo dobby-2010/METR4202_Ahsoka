@@ -104,7 +104,7 @@ def generate_launch_description():
             name='discoverer_server',
             output='screen',)
        
-      watchtower_node_cmd  Node(
+    watchtower_node_cmd  Node(
             package='explorer_map_utils',
             executable='watchtower',
             name='watchtower',
